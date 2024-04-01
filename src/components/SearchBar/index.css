@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.head-part {
+  background-color: rgb(234, 247, 247);
+  height: 25vh;
+  width: 65vw;
+  border-radius: 10px;
+  margin: 10px;
+}
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-container {
+  flex-grow: 1; /* This allows the input to take up remaining space */
+  /* Optional: Add margin between "Dashboard" and search input */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: center;
+  margin-right: 10px;
+}
+.abcd {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  height: 120px;
+  width: 160px;
+  background-color: #ddefe0;
+  border-width: 1px solid yellowgreen;
+  border-radius: 10px;
+  margin: 10px;
+}
+.box2 {
+  background: #f4ecdd;
+}
+.box3 {
+  background: #efdada;
+}
+.box4 {
+  background: #dee0ef;
+}
+.bo {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid yellow;
+}
+
+.revenue-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  /* Optional: Adjust the icon size */
+  font-size: 30px;
+  display: inline;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.content {
+  flex-grow: 1;
+  margin-left: 10px; /* Optional: Add margin between icon and content */
+}
+
+/* Optional: Styles for paragraph and heading */
+.para {
+  margin: 0;
+}
+
+h1 {
+  margin-left: 10px;
+}
